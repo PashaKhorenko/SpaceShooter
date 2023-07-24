@@ -56,7 +56,7 @@ class RecordScene: SKScene {
     
     private func configureTitleLabel() {
         titleLabel = SKLabelNode(fontNamed: "Chalkduster")
-        titleLabel.text = "Resord"
+        titleLabel.text = "Record"
         titleLabel.fontSize = 45
         titleLabel.fontColor = .white
         titleLabel.position = CGPoint(x: frame.midX, y: frame.maxY - 180)
@@ -74,7 +74,7 @@ class RecordScene: SKScene {
     
     private func configureRecordLabel() {
         recordLabel = SKLabelNode(fontNamed: "Chalkduster")
-        recordLabel.text = "Resord: \(self.recordScore ?? 0)"
+        recordLabel.text = "Record: \(self.recordScore ?? 0)"
         recordLabel.fontSize = 30
         recordLabel.fontColor = .white
         recordLabel.position = CGPoint(x: frame.midX, y: frame.midY)
